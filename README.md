@@ -35,13 +35,21 @@ Visual studio
 
 Database MariaDb
 
-How to run:
+HOW TO RUN
 Download the ZIP file from GitHub.
 
-Extract the contents of the ZIP file.
+- Extract the contents of the ZIP file.
 
-Open the solution file (.sln) in Visual Studio.
+- open visual studio (preferably 2022 version or above)
 
-Modify the database connection settings to match your environment.
+- Choose Open a folder or a solution
 
-Build and run the project in Visual Studio
+- Navigate to the extracted file and choose .csproj file
+
+- This should open the project in visual studio and create a sln. file
+
+- Navigate to LaskuRepo.cs
+
+- Modify the database connection settings to match your environment.
+
+- Run the project in Visual Studio
