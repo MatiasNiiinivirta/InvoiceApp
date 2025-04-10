@@ -12,9 +12,9 @@ namespace LaskuApp
     public class LaskuRepo
     {
 
-        private const string local = "Server=127.0.0.1; Port=3306; User ID=opiskelija; Pwd=opiskelija1;";
+        private const string local = "Server=xxx.x.x.x; Port=xxxx; User ID=xxxxxxxx; Pwd=xxxxxxx;";
 
-        private const string localWithDb = "Server=127.0.0.1; Port=3306; User ID=Opiskelija; Pwd=Opiskelija1; Database=LaskuDb;";
+        private const string localWithDb = "Server=xxx.x.x.x; Port=xxxx; User ID=xxxxxxxxxx; Pwd=xxxxxxx; Database=xxxxxx;";
         public void CreateLaskuDb()
         {
             // Luo tietokannan
